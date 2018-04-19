@@ -1,0 +1,12 @@
+{
+  "tests/test_functional.py::TestLoggingIn::()::test_login": true,
+  "tests/test_functional.py::TestLoggingIn::()::test_sees_alert_on_log_out": true,
+  "tests/test_functional.py::TestLoggingIn::()::test_sees_error_message_if_password_is_incorrect": true,
+  "tests/test_functional.py::TestLoggingIn::()::test_sees_error_message_if_username_doesnt_exist": true,
+  "tests/test_functional.py::TestRegistering::()::test_can_register": true,
+  "tests/test_functional.py::TestRegistering::()::test_sees_error_message_if_passwords_dont_match": true,
+  "tests/test_functional.py::TestRegistering::()::test_sees_error_message_if_user_already_registered": true,
+  "tests/test_functional.py::test_login": true,
+  "tests/test_models.py::TestUser::()::test_full_name": true,
+  "tests/test_services.py::TestUserServices::()::test_auth": true
+}
