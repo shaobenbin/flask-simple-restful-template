@@ -5,8 +5,8 @@ import pytest
 from webtest import TestApp
 
 from {{cookiecutter.app_name}}.app import create_app
-from {{cookiecutter.app_name}}.lib.database import db as _db
-from {{cookiecutter.app_name}}.lib.settings import TestConfig
+from {{cookiecutter.app_name}}.conf.database import db as _db
+from {{cookiecutter.app_name}}.conf.settings import TestConfig
 
 from .factories import UserFactory
 

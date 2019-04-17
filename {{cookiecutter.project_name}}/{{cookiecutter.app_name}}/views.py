@@ -2,9 +2,9 @@
 """Public section, including homepage and signup."""
 from flask import Blueprint, request, jsonify
 from flask_login import login_user, login_required, logout_user
-from {{cookiecutter.app_name}}.lib.extensions import csrf_protect, login_manager
+from {{cookiecutter.app_name}}.conf.extensions import csrf_protect, login_manager
 from {{cookiecutter.app_name}}.services import UserService
-from {{cookiecutter.app_name}}.lib.utils import wrap_json_response
+from {{cookiecutter.app_name}}.conf.utils import wrap_json_response
 from {{cookiecutter.app_name}}.models import User
 
 

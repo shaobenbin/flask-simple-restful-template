@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Test configs."""
 from {{cookiecutter.app_name}}.app import create_app
-from {{cookiecutter.app_name}}.lib.settings import DevConfig, ProdConfig
+from {{cookiecutter.app_name}}.conf.settings import DevConfig, ProdConfig
 
 
 def test_production_config():

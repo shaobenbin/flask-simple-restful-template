@@ -3,10 +3,10 @@
 from flask import Flask, jsonify
 
 from {{cookiecutter.app_name}} import views
-from {{cookiecutter.app_name}}.lib import commands
-from {{cookiecutter.app_name}}.lib.extensions import bcrypt, cache, csrf_protect, db, login_manager, migrate
-from {{cookiecutter.app_name}}.lib.settings import ProdConfig
-from {{cookiecutter.app_name}}.lib.utils import wrap_json_response
+from {{cookiecutter.app_name}}.conf import commands
+from {{cookiecutter.app_name}}.conf.extensions import bcrypt, cache, csrf_protect, db, login_manager, migrate
+from {{cookiecutter.app_name}}.conf.settings import ProdConfig
+from {{cookiecutter.app_name}}.conf.utils import wrap_json_response
 from {{cookiecutter.app_name}}.models import User
 
 

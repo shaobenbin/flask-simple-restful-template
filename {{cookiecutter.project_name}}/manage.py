@@ -5,7 +5,7 @@ import os
 from flask.helpers import get_debug_flag
 from flask_script import Shell, Server
 from flask_script.commands import Clean, ShowUrls
-from {{cookiecutter.app_name}}.lib.settings import DevConfig, ProdConfig
+from {{cookiecutter.app_name}}.conf.settings import DevConfig, ProdConfig
 from flask_migrate import MigrateCommand
 from flask_script import Manager
 from {{cookiecutter.app_name}}.app import create_app
